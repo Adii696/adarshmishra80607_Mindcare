@@ -1,0 +1,94 @@
+2025-04-18 15:29:59,522 - WARNING - From E:\anaconda\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-04-18 15:30:01,339 - INFO - Use pytorch device_name: cpu
+2025-04-18 15:30:01,339 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-18 15:30:57,667 - WARNING - From E:\anaconda\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-04-18 15:30:59,286 - INFO - Use pytorch device_name: cpu
+2025-04-18 15:30:59,286 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-18 15:31:05,574 - ERROR - Failed to initialize services: [Errno 2] No such file or directory: 'model/chatbot.h5/questionembedding.dump'
+2025-04-18 15:36:55,200 - INFO - Successfully loaded models and data
+2025-04-18 15:36:55,249 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.185.107:5000
+2025-04-18 15:36:55,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-18 15:36:55,269 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-18 15:37:01,691 - INFO - Successfully loaded models and data
+2025-04-18 15:37:01,726 - WARNING -  * Debugger is active!
+2025-04-18 15:37:01,739 - INFO -  * Debugger PIN: 936-879-583
+2025-04-18 15:37:10,304 - INFO - 192.168.185.107 - - [18/Apr/2025 15:37:10] "GET / HTTP/1.1" 200 -
+2025-04-18 15:37:10,455 - INFO - 192.168.185.107 - - [18/Apr/2025 15:37:10] "GET /static/styles/style.css HTTP/1.1" 200 -
+2025-04-18 15:37:12,737 - INFO - 192.168.185.107 - - [18/Apr/2025 15:37:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-18 15:37:17,327 - ERROR - Error processing message: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\ADI/nltk_data'
+    - 'E:\\anaconda\\nltk_data'
+    - 'E:\\anaconda\\share\\nltk_data'
+    - 'E:\\anaconda\\lib\\nltk_data'
+    - 'C:\\Users\\ADI\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-18 15:37:17,327 - INFO - 192.168.185.107 - - [18/Apr/2025 15:37:17] "GET /get?msg=hello HTTP/1.1" 200 -
+2025-04-18 15:37:38,468 - ERROR - Error processing message: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\ADI/nltk_data'
+    - 'E:\\anaconda\\nltk_data'
+    - 'E:\\anaconda\\share\\nltk_data'
+    - 'E:\\anaconda\\lib\\nltk_data'
+    - 'C:\\Users\\ADI\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-18 15:37:38,469 - INFO - 192.168.185.107 - - [18/Apr/2025 15:37:38] "GET /get?msg=hello HTTP/1.1" 200 -
+2025-04-18 15:37:43,830 - ERROR - Error processing message: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\ADI/nltk_data'
+    - 'E:\\anaconda\\nltk_data'
+    - 'E:\\anaconda\\share\\nltk_data'
+    - 'E:\\anaconda\\lib\\nltk_data'
+    - 'C:\\Users\\ADI\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2025-04-18 15:37:43,831 - INFO - 192.168.185.107 - - [18/Apr/2025 15:37:43] "GET /get?msg=i%20am%20feeling%20sad HTTP/1.1" 200 -
